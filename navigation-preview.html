@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitBook Navigation Preview</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+        
+        .navbar {
+            background: white;
+            border-bottom: 1px solid #e1e4e8;
+            padding: 0 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+        
+        .nav-brand {
+            font-size: 18px;
+            font-weight: 600;
+            color: #24292e;
+            margin-right: 40px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-item {
+            margin-right: 32px;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: #586069;
+            font-weight: 500;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            color: #24292e;
+        }
+        
+        .nav-link.active {
+            color: #0366d6;
+            border-bottom-color: #0366d6;
+        }
+        
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 24px;
+        }
+        
+        .sidebar {
+            width: 280px;
+            float: left;
+            background: white;
+            border-radius: 6px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .main-content {
+            margin-left: 320px;
+            background: white;
+            border-radius: 6px;
+            padding: 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+            color: #24292e;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 24px 0;
+        }
+        
+        .sidebar li {
+            margin: 8px 0;
+        }
+        
+        .sidebar a {
+            color: #586069;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 4px 0;
+            display: block;
+        }
+        
+        .sidebar a:hover {
+            color: #0366d6;
+        }
+        
+        .sidebar .sub-item {
+            margin-left: 16px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Gensyn Docs</div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Testnet</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Litepaper (legacy)</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Area -->
+    <div class="content">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Overview</h3>
+            <ul>
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">Getting Started</a></li>
+            </ul>
+            
+            <h3>RL Swarm</h3>
+            <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Connecting your Node</a></li>
+                <li><a href="#">Monitoring your training stats</a></li>
+                <li><a href="#">Troubleshooting</a></li>
+            </ul>
+            
+            <h3>BlockAssist</h3>
+            <ul>
+                <li><a href="#">Getting started</a></li>
+                <li><a href="#">Running BlockAssist with Cursor</a></li>
+                <li><a href="#">Running BlockAssist on a Remote Linux Desktop</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Home</h1>
+            <p>Welcome to Gensyn Documentation. This is how your GitBook should look with the new top navigation.</p>
+            
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Top Navigation:</strong> Home, Testnet, Litepaper (legacy)</li>
+                <li><strong>Sidebar:</strong> Detailed navigation for each section</li>
+                <li><strong>Clean Design:</strong> Modern, professional appearance</li>
+            </ul>
+            
+            <h2>Next Steps</h2>
+            <p>To achieve this layout in GitBook:</p>
+            <ol>
+                <li>Go to GitBook Settings → Navigation</li>
+                <li>Add Custom Navigation items</li>
+                <li>Set paths to your markdown files</li>
+                <li>Save and preview</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
