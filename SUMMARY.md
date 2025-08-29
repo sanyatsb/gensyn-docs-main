@@ -1,6 +1,6 @@
 # Summary
 
-* [Home](README.md)
+* [Home](index.md)
 * [Testnet](docs.gensyn.ai/testnet.md)
   * [Overview](docs.gensyn.ai/testnet.md)
   * [RL Swarm](docs.gensyn.ai/testnet/rl-swarm.md)
