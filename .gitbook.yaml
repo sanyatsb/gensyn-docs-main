@@ -4,9 +4,9 @@ navigation:
   - title: Home
     path: /
   - title: Testnet
-    path: /docs.gensyn.ai/testnet
+    path: /testnet
   - title: Litepaper (legacy)
-    path: /docs.gensyn.ai/litepaper
+    path: /litepaper
 
 plugins:
   - highlight
