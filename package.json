@@ -1,0 +1,21 @@
+{
+  "name": "gensyn-docs",
+  "version": "1.0.0",
+  "description": "Gensyn Documentation for GitBook",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "serve": "gitbook serve",
+    "install": "gitbook install"
+  },
+  "keywords": [
+    "gensyn",
+    "documentation",
+    "gitbook"
+  ],
+  "author": "Gensyn Team",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

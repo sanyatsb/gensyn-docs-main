@@ -1,0 +1,24 @@
+root: ./
+
+navigation:
+  - title: Home
+    path: /
+  - title: Testnet
+    path: /docs.gensyn.ai/testnet
+  - title: Litepaper (legacy)
+    path: /docs.gensyn.ai/litepaper
+
+plugins:
+  - highlight
+  - search
+  - github
+  - expandable-chapters
+  - back-to-top-button
+
+pluginsConfig:
+  github:
+    url: https://github.com/sanyatsb/gensyn-docs-ru
+  expandable-chapters: {}
+  back-to-top-button:
+    show: true
+    position: right
