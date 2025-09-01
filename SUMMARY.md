@@ -1,15 +1,3 @@
-# Summary
+# Table of contents
 
-* [Home](index.md)
-* [Testnet](testnet.md)
-  * [Overview](testnet.md)
-  * [RL Swarm](docs.gensyn.ai/testnet/rl-swarm.md)
-    * [How it works](docs.gensyn.ai/testnet/rl-swarm/how-it-works.md)
-    * [Connecting your Node](docs.gensyn.ai/testnet/rl-swarm/connecting-your-node.md)
-    * [Monitoring your training stats](docs.gensyn.ai/testnet/rl-swarm/monitoring-your-training-stats.md)
-    * [Troubleshooting](docs.gensyn.ai/testnet/rl-swarm/troubleshooting.md)
-  * [BlockAssist](docs.gensyn.ai/testnet/blockassist.md)
-    * [Getting started](docs.gensyn.ai/testnet/blockassist/getting-started.md)
-    * [Running BlockAssist with Cursor](docs.gensyn.ai/testnet/blockassist/running-blockassist-with-cursor.md)
-    * [Running BlockAssist on a Remote Linux Desktop](docs.gensyn.ai/testnet/blockassist/running-blockassist-on-a-remote-linux-desktop.md)
-* [Litepaper (legacy)](litepaper.md)
+* [Home](README.md)
