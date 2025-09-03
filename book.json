@@ -1,0 +1,27 @@
+{
+  "title": "Gensyn Documentation",
+  "description": "Complete documentation for Gensyn Protocol, Testnet, and Litepaper",
+  "author": "Gensyn Team",
+  "language": "en",
+  "structure": {
+    "readme": "index.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "highlight",
+    "search",
+    "github",
+    "expandable-chapters",
+    "back-to-top-button"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/sanyatsb/gensyn-docs-ru"
+    },
+    "expandable-chapters": {},
+    "back-to-top-button": {
+      "show": true,
+      "position": "right"
+    }
+  }
+}
